@@ -1,3 +1,4 @@
 pixelarena-main
-pixelarena-**
+
 pixelarena-**/dist/**
+**/node_modules/*
