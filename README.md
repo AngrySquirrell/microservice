@@ -27,3 +27,10 @@ Le Shell est l'application hôte qui sert de conteneur principal sur le port 300
 
 Qu'est ce qu'est le `remoteEntry.js` :
 C'est le fichier manifeste généré automatiquement par Webpack quand un micro-frontend se build. Il contient la carte d'identité du MFE : son nom, les modules qu'il expose, et les dépendances partagées.
+
+---
+
+# Exercice 4 - Réponses :
+
+Pourquoi on n'importe pas directement le state du Lobby dans le Header :
+Parce que Lobby et Header sont deux applications indépendantes. Ils n'ont aucun accès direct à la mémoire ou au React de l'autre. Chaque MFE a son propre arbre React avec ses propres hooks et composants.
