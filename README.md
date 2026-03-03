@@ -16,3 +16,7 @@ Apres avoir fait la modification, repondez a ces questions :
 ---
 
 # Exercice 2 - Réponses :
+
+A quoi sert le `Shell` dans le fichier `webpack.config.js` :
+Le Shell est l'application hôte qui sert de conteneur principal sur le port 3000.
+Ça permet de partager une seule instance de react et react-dom entre les modules.
